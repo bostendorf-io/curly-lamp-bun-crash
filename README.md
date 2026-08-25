@@ -12,6 +12,7 @@ To run:
 bun run reproducer/makeTests.ts
 bun test # works as expected
 bun test --parallel=8 # crashes when running once or twice
+bun test --isolate # also crashes
 ```
 
 
