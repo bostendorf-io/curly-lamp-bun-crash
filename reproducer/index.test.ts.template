@@ -1,0 +1,8 @@
+import client from 'prom-client';
+
+export const register = new client.Registry();
+client.collectDefaultMetrics({ register });
+
+it('should run a test', async () => {
+  expect(true).toBe(true);
+});
